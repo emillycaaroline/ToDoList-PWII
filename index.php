@@ -58,6 +58,7 @@ if ( isset($_GET['clear']) ) {
 
             ?>
 
+            <!-- limpa o formulario -->
             <form action="" method="get">
                 <input type="hidden" name="clear" value="clear">
                 <button type="submit" class="btn-clear">Limpar Tarefas</button>
